@@ -34,12 +34,15 @@ MySQL > 5.7
 sudo apt-get install mysql-server
 ```
 
-Desde la consola de MySQL, deberá crearse una base de datos donde ejecutar las migraciones del proyecto:
+Desde la consola de MySQL, deberá crearse una base de datos donde ejecutar las migraciones del proyecto, y otra para permitir la ejecución de las pruebas:
 ```
 mysql -u[usuario] -p[contraseña]
 ```
 ```
 CREATE DATABASE user_history;
+```
+```
+CREATE DATABASE user_history_tests;
 ```
 
 ### Despliegue
