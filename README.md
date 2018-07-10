@@ -48,7 +48,7 @@ Una vez instalados los requisitos previos, se podrá comenzar el despliegue.
 
 En primer lugar, se debe clonar el proyecto en la máquina local, utilizando este mismo repositorio:
 ```
-git clone ...
+git clone https://github.com/olivercareaga/user-history.git
 ```
 
 Será necesario establecer permisos de escritura al propietario de la carpeta storage, ejecutando desde la raíz del proyecto el siguiente comando:
